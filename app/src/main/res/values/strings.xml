@@ -1,3 +1,76 @@
 <resources>
-    <string name="app_name">MyTravel</string>
+    <string name="app_name">TravelApp</string>
+    <!--sign Up-->
+    <string name="Create_Account">Create Account</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="Sign_Up">Sign Up</string>
+    <!--Login-->
+    <string name="Login">Login</string>
+    <string name="Forget_password">Forget password ? </string>
+    <!--Forget Password-->
+    <string name="Forget">Forget Password</string>
+    <string name="Number_Phone">Phone Number</string>
+    <string name="Send">Send</string>
+    <!--Verification code-->
+    <string name="Verification_Code">Verification Code</string>
+    <string name="Enter_Your_Verification_code">Enter Your Verification Code</string>
+    <string name="Resend">Resend(30s)</string>
+    <string name="Verify">Verify</string>
+    <!-- Home-->
+    <string name="Search">search</string>
+    <string name="Show_Post">Show Post</string>
+    <string name="Popular_Destination">Popular Destination</string>
+    <string name="Kompot">Kompot</string>
+    <string name="Koh_Kong">Koh Kong</string>
+    <string name="Porsat">Porsat</string>
+    <string name="View_All">View All</string>
+    <string name="Angkor_Wat">Angkor Wat</string>
+    <string name="Siem_reap">Seam reap</string>
+    <string name="Preah_Vihear">Preah Vihear</string>
+    <string name="Koh_Kong_Krov">Koh Kong Krov</string>
+    <string name="Home">Home</string>
+    <string name="Other">More</string>
+    <string name="Post">Post</string>
+    <string name="Province">Province</string>
+    <!-- Post -->
+    <string name="Mondulkiri">Mondulkiri</string>
+    <string name="Sea_of_wood">Sea of wood</string>
+    <string name="About_post">About post</string>
+    <string name="Battambang">Battambang</string>
+    <string name="Phnom_Sampov">Phnom Sampov</string>
+    <string name="Guest_Canyon">Guest Canyon</string>
+    <string name="Takev">Takev</string>
+    <string name="Kien_Svay_Krao_Natural_Resort">Kien Svay Krao Natural Resort</string>
+    <string name="Kondal">Kondal</string>
+    <!--View Item-->
+    <string name="Angkor_Wat_Siem_reap">Angkor Wat, Siem reap</string>
+    <string name="Articles"> Angkor Wat is located in the northern
+part of Siem Reap, 7 km from the
+provincial town on Comay Road.
+Angkor was inscribed on the World
+Heritage List on December 14, 1992.
+According to the study of Khmer
+historical documents, this temple was
+first built by King Suryavarman II in
+the early 12th century from 1113 to
+1150.</string>
+    <string name="Kirirom">Kirirom</string>
+    <string name="Kirirom_National_Park_Kampong_Speu_I_Green_Era_Travel">Kirirom National Park
+Kampong Speu | Green Era Travel</string>
+    <string name="Phnom_Yat">Phnom Yat</string>
+    <string name="Pailin_Western_Cambodia_Destination_info">Pailin - Western Cambodia
+ Destination info</string>
+
+    <!--Province-->
+    <string name="Phonm_Penh">Phonm Penh</string>
+    <string name="Kandal">Kandal</string>
+    <string name="kampot">kampot</string>
+    <string name="kampaong_Spen">Kampaong Spen</string>
+    <string name="Kampong_Cham">Kampong Cham</string>
+    <string name="Banteay_Meanchey">Benteay Meanchey</string>
+    <string name="Kampong_chhnang">Kampong Chhnang</string>
+
 </resources>

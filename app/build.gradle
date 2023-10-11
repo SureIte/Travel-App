@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'kh.edu.rupp.ite.mytravel'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "kh.edu.rupp.ite.mytravel"
