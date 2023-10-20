@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itm_home"
+        android:icon="@drawable/image_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/itm_post"
+        android:icon="@drawable/image_post"
+        android:title="Post"/>
+    <item
+        android:id="@+id/itm_plagiarism"
+        android:icon="@drawable/image_plan_24"
+        android:title="plagiarism"/>
+    <item
+        android:id="@+id/itm_More"
+        android:icon="@drawable/image_more"
+        android:title="More"/>
+
+</menu>
