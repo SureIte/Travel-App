@@ -12,7 +12,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        // Reference the button by its ID bnb
+        // Reference the button by its ID
         val buttonHome: Button = findViewById(R.id.button_home)
 
         // Set an OnClickListener for the button
