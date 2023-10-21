@@ -54,15 +54,16 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/verificationCodeEditText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginBottom="8dp"
-                android:text="@string/Enter_Your_Verification_code"
+                android:text="Enter Your code"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword5"
@@ -70,7 +71,7 @@
                 app:layout_constraintTop_toTopOf="@+id/editTextTextPassword5" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/resendTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -94,7 +95,7 @@
                     android:elevation="15dp">
 
                     <TextView
-                        android:id="@+id/textView19"
+                        android:id="@+id/verifyCodeButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/Verify"
