@@ -242,7 +242,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView23" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/selectProvincePost"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="57dp"
@@ -260,9 +260,9 @@
                 android:text="@string/Province"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView"
-                app:layout_constraintStart_toStartOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                app:layout_constraintEnd_toEndOf="@+id/selectProvincePost"
+                app:layout_constraintStart_toStartOf="@+id/selectProvincePost"
+                app:layout_constraintTop_toBottomOf="@+id/selectProvincePost" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
