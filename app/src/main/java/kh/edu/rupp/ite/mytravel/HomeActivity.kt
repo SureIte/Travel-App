@@ -21,4 +21,7 @@ class HomeActivity : AppCompatActivity() {
             Toast.makeText(this, "Button Clicked!", Toast.LENGTH_SHORT).show()
         }
     }
+    fun testFun(){
+
+    }
 }
