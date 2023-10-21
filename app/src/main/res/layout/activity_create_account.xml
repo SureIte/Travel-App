@@ -55,7 +55,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/nameEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -78,7 +78,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/emailEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -102,7 +102,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/passwordEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -125,7 +125,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword2" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/confirmPasswordEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -147,10 +147,10 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/createAccountButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Sign_Up"
+                android:text="Create"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"

@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class HomeActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
