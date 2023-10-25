@@ -10,9 +10,9 @@
         android:icon="@drawable/image_post"
         android:title="Post"/>
     <item
-        android:id="@+id/itm_plagiarism"
-        android:icon="@drawable/image_plan_24"
-        android:title="plagiarism"/>
+        android:id="@+id/itm_plan"
+        android:icon="@drawable/image_plan"
+        android:title="plan"/>
     <item
         android:id="@+id/itm_More"
         android:icon="@drawable/image_more"
