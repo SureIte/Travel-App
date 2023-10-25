@@ -1,10 +1,11 @@
-package kh.edu.rupp.ite.mytravel
+package kh.edu.rupp.ite.mytravel.ui.activity
 
 import android.os.Bundle
 
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.mytravel.R
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var loginButton: Button

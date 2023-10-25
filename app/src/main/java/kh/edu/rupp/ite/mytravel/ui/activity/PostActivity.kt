@@ -1,11 +1,12 @@
-package kh.edu.rupp.ite.mytravel
+package kh.edu.rupp.ite.mytravel.ui.activity
 
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.mytravel.R
 
-class PostActivity : AppCompatActivity() {
+public class PostActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_post)
