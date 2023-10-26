@@ -1,10 +1,11 @@
-package kh.edu.rupp.ite.mytravel
+package kh.edu.rupp.ite.mytravel.ui.activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.mytravel.R
 
 class SelectPostActivity : AppCompatActivity() {
 
@@ -24,5 +25,6 @@ class SelectPostActivity : AppCompatActivity() {
 
         // Set the adapter for the Spinner
         selectProvincePost.adapter = adapter
+
     }
 }

@@ -1,10 +1,11 @@
-package kh.edu.rupp.ite.mytravel
+package kh.edu.rupp.ite.mytravel.ui.activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.mytravel.R
 
 class HomeActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "WrongViewCast")
@@ -20,8 +21,5 @@ class HomeActivity : AppCompatActivity() {
             // Action to perform when the button is clicked (e.g., show a toast message)
             Toast.makeText(this, "Button Clicked!", Toast.LENGTH_SHORT).show()
         }
-    }
-    fun testFun(){
-
     }
 }

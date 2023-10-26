@@ -1,9 +1,10 @@
-package kh.edu.rupp.ite.mytravel
+package kh.edu.rupp.ite.mytravel.ui.activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import kh.edu.rupp.ite.mytravel.R
 
 class ViewPostActivity : AppCompatActivity() {
 
