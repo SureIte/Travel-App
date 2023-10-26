@@ -73,4 +73,14 @@ Kampong Speu | Green Era Travel</string>
     <string name="Banteay_Meanchey">Benteay Meanchey</string>
     <string name="Kampong_chhnang">Kampong Chhnang</string>
 
+    <!-- welcome 1 -->
+    <string name="Let_s_Travel">Let’s Travel</string>
+    <string name="Lorem_ipsum_dolor_sit_amet">Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore.</string>
+    <string name="Get_started">Get started</string>
+
+    <!-- welcome2-->
+    <string name="Plan_A_Trip">Plan A Trip</string>
+
 </resources>
