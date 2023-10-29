@@ -2,55 +2,54 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/radius"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="521dp"
-        android:layout_height="853dp"
+        android:id="@+id/imageView28"
+        android:layout_width="544dp"
+        android:layout_height="739dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintHorizontal_bias="0.69"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photo1" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/photo14" />
 
     <TextView
-        android:id="@+id/textView59"
+        android:id="@+id/textView63"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="298dp"
-        android:text="@string/Let_s_Travel"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="216dp"
+        android:text="@string/Plan_A_Trip"
         android:textColor="@color/yellow"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView61"
-        android:layout_width="211dp"
-        android:layout_height="106dp"
-        android:layout_marginStart="8dp"
+        android:id="@+id/textView68"
+        android:layout_width="218dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
         android:text="@string/Lorem_ipsum_dolor_sit_amet"
         android:textColor="@color/white"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView59"
-        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+        app:layout_constraintStart_toStartOf="@+id/textView63"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/welcomeLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="76dp"
         android:backgroundTint="@color/yellow"
         android:text="@string/Get_started"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
