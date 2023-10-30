@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         // Find the "Login" button by its ID
-        loginButton = findViewById(R.id.textView11)
+        loginButton = findViewById(R.id.loginButton)
 
         // Set a click listener for the button
         loginButton.setOnClickListener {
