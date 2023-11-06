@@ -1,4 +1,4 @@
-package kh.edu.rupp.ite.mytravel.ui.activity
+package kh.edu.rupp.ite.mytravel.view.activity
 
 import android.os.Bundle
 

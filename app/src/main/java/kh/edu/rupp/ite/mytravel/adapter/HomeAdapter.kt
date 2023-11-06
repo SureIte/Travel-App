@@ -1,12 +1,15 @@
-package kh.edu.rupp.ite.mytravel.ui.adapter.adpter
+package kh.edu.rupp.ite.mytravel.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kh.edu.rupp.ite.mytravel.R
+import kh.edu.rupp.ite.mytravel.api.model.Home
 
 class HomeAdapter : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
+
+    lateinit var onHomeClickListener: (Int, Home) -> Unit
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.fragment_home
