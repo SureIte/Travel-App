@@ -14,11 +14,11 @@ class WelcomeActivity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome1)
 
-        val welcomeLayout = findViewById<View>(R.id.welcomeLayout)
+        val buttonGetStart = findViewById<View>(R.id.buttonGetStart)
 
-        welcomeLayout.setOnClickListener {
+        buttonGetStart.setOnClickListener {
             // Define the action to perform when the screen is clicked
-            // For example, you can navigate to the main activity or perform other actions
+            // For example, you can navigate to the main activity or perform other actions​
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }

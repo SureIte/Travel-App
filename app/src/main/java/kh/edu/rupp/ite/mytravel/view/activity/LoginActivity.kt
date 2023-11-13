@@ -23,4 +23,5 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "Login button clicked!", Toast.LENGTH_SHORT).show()
         }
     }
+
 }
