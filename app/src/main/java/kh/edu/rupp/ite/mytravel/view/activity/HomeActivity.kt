@@ -1,25 +1,26 @@
 package kh.edu.rupp.ite.mytravel.view.activity
 
-import android.annotation.SuppressLint
+
 import android.os.Bundle
-import android.widget.Button
-import android.widget.Toast
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import kh.edu.rupp.ite.mytravel.R
 
 class HomeActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId", "WrongViewCast")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        // Your HomeActivity initialization code
 
-        // Reference the button by its ID
-        val buttonHome: Button = findViewById(R.id.button_home)
-
-        // Set an OnClickListener for the button
-        buttonHome.setOnClickListener {
-            // Action to perform when the button is clicked (e.g., show a toast message)
-            Toast.makeText(this, "Button Clicked!", Toast.LENGTH_SHORT).show()
+        // Trigger the transition to ActivityHome when needed, e.g., on button click
+        val yourButton = null
+        yourButton.setOnClickListener {
+            val intent = Intent(this, ActivityHome::class.java)
+            startActivity(intent)
         }
     }
 }
+
+private fun Nothing?.setOnClickListener(function: () -> Unit) {
+
+}
+

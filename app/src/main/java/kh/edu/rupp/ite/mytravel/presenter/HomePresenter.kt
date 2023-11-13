@@ -1,6 +1,5 @@
 package kh.edu.rupp.ite.mytravel.presenter
 
-import com.google.gson.Gson
 import kh.edu.rupp.ite.mytravel.api.model.Home
 import kh.edu.rupp.ite.mytravel.api.service.APIService
 import kh.edu.rupp.ite.mytravel.view.HomeView
