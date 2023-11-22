@@ -10,25 +10,23 @@ import kh.edu.rupp.ite.mytravel.R
 
 class ActivityHome : AppCompatActivity() {
 
-    @SuppressLint("WrongViewCast", "SetTextI18n")
+    @SuppressLint("WrongViewCast", "SetTextI18n", "MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.fragment_home)
 
-        // Initialize and set up your UI components and logic here
 
-        // Example: Retrieving a TextView from the layout and updating its text
+        // Retrieving a TextView from the layout and updating its text
         val textView = findViewById<TextView>(R.id.buttonInFragment)
         textView.text = "Welcome to the Home Activity!"
 
-        // Example: Setting an OnClickListener for a button
+        // Setting an OnClickListener for a button
         val button = findViewById<Button>(R.id.button_home)
         button.setOnClickListener {
-            // Perform some action when the button is clicked
+
+            // action when the button is clicked button home
             Toast.makeText(this@ActivityHome, "Button clicked!", Toast.LENGTH_SHORT).show()
         }
     }
-
-    // Add any additional methods or callbacks as needed
 
 }
