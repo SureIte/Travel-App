@@ -12,7 +12,7 @@ class WelcomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_welcome2)
 
         getStartedButton = findViewById(R.id.getStartedButton)
 
