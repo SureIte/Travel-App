@@ -25,7 +25,7 @@ class ActivityHome : AppCompatActivity() {
         button.setOnClickListener {
 
             // action when the button is clicked button home
-            Toast.makeText(this@ActivityHome, "Button clicked!", Toast.LENGTH_SHORT).show()
+           Toast.makeText(this@ActivityHome, "Button clicked!", Toast.LENGTH_SHORT).show()
         }
     }
 

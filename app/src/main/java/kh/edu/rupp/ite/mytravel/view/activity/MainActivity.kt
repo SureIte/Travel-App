@@ -1,49 +1,43 @@
 package kh.edu.rupp.ite.mytravel.view.activity
 
-import android.annotation.SuppressLint
-import android.content.Intent
+
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import kh.edu.rupp.ite.mytravel.R
+import kh.edu.rupp.ite.mytravel.databinding.ActivityMainBinding
+import kh.edu.rupp.ite.mytravel.view.fragment.HomeFragment
+import kh.edu.rupp.ite.mytravel.view.fragment.MoreFragment
+import kh.edu.rupp.ite.mytravel.view.fragment.PlanFragment
+import kh.edu.rupp.ite.mytravel.view.fragment.PostFragment
 
 class MainActivity : AppCompatActivity() {
 
-     @SuppressLint("MissingInflatedId")
-     override fun onCreate(savedInstanceState: Bundle?) {
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-         // Example: Start WelcomeActivity on clicking start button
-         var getStartedButton = findViewById<View>(R.id.getStartedButton)
-         getStartedButton.setOnClickListener{
-             val intent = Intent(this,CreateAccountActivity::class.java)
-             startActivity(intent)
-         }
+        showFragment(HomeFragment())
 
-         // Example: Start WelcomeActivity on clicking start button welcome1
-         var buttonGetStart = findViewById<View>(R.id.buttonGetStart)
-         buttonGetStart.setOnClickListener{
-             var intent = Intent(this,CreateAccountActivity::class.java)
-             startActivity(intent)
-         }
-
-        // Example: Start LoginActivity on clicking login button
-        val loginButton = findViewById<View>(R.id.loginButton)
-        loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+        // button item action to fragment
+        binding.bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.mnuHome -> showFragment(HomeFragment())
+                R.id.mnuPost -> showFragment(PostFragment())
+                R.id.mnuPlan -> showFragment(PlanFragment())
+                else -> showFragment(MoreFragment())
+            }
+            true
         }
+    }
 
-        // Example: Start CreateAccountActivity on clicking create account button
-        val createAccountButton = findViewById<View>(R.id.createAccountButton)
-        createAccountButton.setOnClickListener {
-            val intent = Intent(this, CreateAccountActivity::class.java)
-            startActivity(intent)
-        }
-
-         // Example: Start
-
-
+    // Function Show Fragment
+    private fun showFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, fragment)
+                .commit()
     }
 }
