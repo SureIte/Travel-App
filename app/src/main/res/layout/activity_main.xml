@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".view.activity.HomeActivity">
+    tools:context=".view.activity.MainActivity">
 
+
+    <!-- activity_main.xml -->
     <FrameLayout
-        android:id="@+id/lytFragment"
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
