@@ -31,7 +31,9 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
     }
+
 
     // Function Show Fragment
     private fun showFragment(fragment: Fragment) {

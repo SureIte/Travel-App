@@ -1,6 +1,6 @@
 package kh.edu.rupp.ite.mytravel.presenter
 
-import kh.edu.rupp.ite.mytravel.api.model.Home
+import kh.edu.rupp.ite.mytravel.api.model.HomeModel
 import kh.edu.rupp.ite.mytravel.api.service.APIService
 import kh.edu.rupp.ite.mytravel.view.HomeView
 import retrofit2.Call
@@ -24,10 +24,10 @@ class HomePresenter(private val view: HomeView) {
 
         // Load home list from service
         val task = apiService.loadHomeList()
-        task.enqueue(object : Callback<List<Home>> {
+        task.enqueue(object : Callback<List<HomeModel>> {
             override fun onResponse(
-            call: Call<List<Home>>,
-            response: Response<List<Home>>
+                    call: Call<List<HomeModel>>,
+                    response: Response<List<HomeModel>>
             ){
                 if(response.isSuccessful){
 
@@ -35,7 +35,7 @@ class HomePresenter(private val view: HomeView) {
 
                 }
             }
-            override fun onFailure(call: Call<List<Home>>, t: Throwable) {
+            override fun onFailure(call: Call<List<HomeModel>>, t: Throwable) {
                 TODO("Not yet implemented")
             }
 
@@ -47,6 +47,6 @@ class HomePresenter(private val view: HomeView) {
 
 }
 
-private fun Any.enqueue(callback: Callback<List<Home>>) {
+private fun Any.enqueue(callback: Callback<List<HomeModel>>) {
 
 }
