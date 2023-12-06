@@ -1,47 +1,38 @@
 package kh.edu.rupp.ite.mytravel.view.activity
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
+import androidx.appcompat.app.AppCompatActivity
 import kh.edu.rupp.ite.mytravel.R
-import kh.edu.rupp.ite.mytravel.api.model.LoginViewModel
-
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var loginViewModel: LoginViewModel
-
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.fragment_login)
+//        setContentView(R.layout.activity_login)
 //
-//        loginViewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
-//
+//        // Assuming you have a button with id 'loginButton' in your activity_login.xml layout file
 //        loginButton.setOnClickListener {
-//            val email = emailEditText.text.toString()
+//
+//            // Replace "usernameEditText" and "passwordEditText" with your actual EditText fields for username and password
+//            val username = usernameEditText.text.toString()
 //            val password = passwordEditText.text.toString()
 //
-//            loginViewModel.loginUser(email, password)
-//        }
-//
-//        loginViewModel.loginStatus.observe(this, Observer { isLoggedIn ->
-//            if (isLoggedIn) {
-//
-//                // Successful login logic, navigate to the next screen or perform actions
-//
-//                showToast("Login successful")
+//            // Replace "your_username" and "your_password" with the actual credentials to validate
+//            if (username == "your_username" && password == "your_password") {
+//                // Login successful, start HomeActivity
+//                val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+//                startActivity(intent)
+//                finish()
+//            // This finishes the LoginActivity so pressing back won't go back to it
 //            } else {
-//                // Display error message or handle unsuccessful login
-//                showToast("Invalid username or password")
+//
+//                // Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
 //            }
-//        })
+//        }
 //    }
-
-    private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-    }
 }
+
+
 
 

@@ -23,4 +23,3 @@ class HomeActivity : AppCompatActivity() {
 private fun Nothing?.setOnClickListener(function: () -> Unit) {
 
 }
-
