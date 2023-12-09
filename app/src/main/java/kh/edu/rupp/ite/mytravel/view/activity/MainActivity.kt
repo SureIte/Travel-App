@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.mnuHome -> showFragment(HomeFragment())
                 R.id.mnuPost -> showFragment(PostFragment())
-                R.id.mnuPlan -> showFragment(PlanFragment())
+                R.id.mnuTravel -> showFragment(PlanFragment())
                 else -> showFragment(MoreFragment())
             }
             true

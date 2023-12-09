@@ -11,4 +11,9 @@
     <color name="bg_search">#B4B4B3</color>
     <color name="F0F0F0">#F0F0F0</color>
     <color name="Blue">#F1EFEF</color>
+    <color name="body_background">#ffffff</color>
+    <color name="body_color">#333333</color>
+    <color name="primary_color">#014164</color>
+
 </resources>
+
