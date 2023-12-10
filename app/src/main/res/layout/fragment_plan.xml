@@ -50,6 +50,14 @@
                     app:layout_constraintVertical_bias="0.545"
                     app:srcCompat="@drawable/photo9" />
 
+                <FrameLayout
+                    android:layout_height="86dp"
+                    android:layout_width="0dp"
+                    android:background="@color/bg_search"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"  />
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -74,7 +82,8 @@
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/textView11"
             app:layout_constraintEnd_toEndOf="@+id/cardView"
-            app:layout_constraintTop_toTopOf="@+id/textView11" />
+            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintVertical_bias="0.0" />
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView"
