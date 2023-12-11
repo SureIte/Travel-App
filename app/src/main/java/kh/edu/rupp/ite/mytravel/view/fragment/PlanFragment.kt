@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kh.edu.rupp.ite.mytravel.databinding.FragmentHomeBinding
+import kh.edu.rupp.ite.mytravel.databinding.FragmentPlanBinding
 
 
 class PlanFragment : Fragment() {
-    private var binding: FragmentHomeBinding? = null
+    private var binding: FragmentPlanBinding? = null
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        binding = FragmentHomeBinding.inflate(layoutInflater)
+        binding = FragmentPlanBinding.inflate(layoutInflater)
         return binding!!.getRoot()
     }
 }

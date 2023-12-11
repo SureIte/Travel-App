@@ -17,11 +17,11 @@ class ActivityHome : AppCompatActivity() {
 
 
         // Retrieving a TextView from the layout and updating its text
-        val textView = findViewById<TextView>(R.id.buttonInFragment)
+        val textView = findViewById<TextView>(R.id.txtAllCourses)
         textView.text = "Welcome to the Home Activity!"
 
         // Setting an OnClickListener for a button
-        val button = findViewById<Button>(R.id.button_home)
+        val button = findViewById<Button>(R.id.editTextTextPersonName2)
         button.setOnClickListener {
 
             // action when the button is clicked button home

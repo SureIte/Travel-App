@@ -21,16 +21,16 @@ class MyAdapter(private val context : Activity,private val arrayList: ArrayList<
         val view : View = inflater.inflate(R.layout.fragment_home,null)
 
 
-        val imageView : ImageView = view.findViewById(R.id.listKohkong_pic)
-        val postName : TextView = view.findViewById(R.id.textNamekohkong)
-        val postAll : TextView = view.findViewById(R.id.showPost)
-        val showAllPost : TextView = view.findViewById(R.id.showPostAll)
+//        val imageView : ImageView = view.findViewById(R.id.listKohkong_pic)
+//        val postName : TextView = view.findViewById(R.id.textNamekohkong)
+//        val postAll : TextView = view.findViewById(R.id.showPost)
+//        val showAllPost : TextView = view.findViewById(R.id.showPostAll)
 
 
-        imageView.setImageResource(arrayList[position].imageId)
-        postName.text = arrayList[position].nameprovince
-        postAll.text = arrayList[position].showpost
-        showAllPost.text = arrayList[position].showPostAll
+//        imageView.setImageResource(arrayList[position].imageId)
+//        postName.text = arrayList[position].nameprovince
+//        postAll.text = arrayList[position].showpost
+//        showAllPost.text = arrayList[position].showPostAll
 
 
         return view

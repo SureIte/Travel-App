@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="320dp"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="16dp"
@@ -73,6 +73,7 @@
         app:cardCornerRadius="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
+
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -251,10 +252,10 @@
                         android:layout_height="144dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.51"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
+                        app:layout_constraintHorizontal_bias="0.51"
                         app:srcCompat="@drawable/photo3" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -344,15 +345,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="415dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
     </androidx.cardview.widget.CardView>
 
 

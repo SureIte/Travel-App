@@ -10,9 +10,9 @@
         android:icon="@drawable/image_post"
         android:title="Post"/>
     <item
-        android:id="@+id/mnuPlan"
-        android:icon="@drawable/image_plan"
-        android:title="plan"/>
+        android:id="@+id/mnuTravel"
+        android:icon="@drawable/ic_travel_24"
+        android:title="Trips"/>
     <item
         android:id="@+id/mnuMore"
         android:icon="@drawable/image_more"

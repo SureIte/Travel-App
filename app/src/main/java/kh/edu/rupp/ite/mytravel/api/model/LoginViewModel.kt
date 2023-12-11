@@ -13,7 +13,6 @@ class LoginViewModel {
             get() = _loginStatus
 
         fun loginUser(email: String, password: String) {
-            // Here, you can add your authentication logic.
             // login if email is "email" and password is "password"
 
             val isLoggedIn = email == "email" && password == "password"

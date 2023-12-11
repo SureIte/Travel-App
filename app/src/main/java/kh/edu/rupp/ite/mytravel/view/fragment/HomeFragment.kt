@@ -15,16 +15,6 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(layoutInflater)
         return binding!!.getRoot()
 
-        val nameList = arrayListOf("showPost", "showPostAll",)
-        val provinceList = arrayListOf("listkohkong_pic", "textNamekohkong")
-
-
-        val imageList = arrayListOf(
-                R.drawable.photo,
-                R.drawable.photo10,
-
-
-        )
     }
 }
 
