@@ -199,6 +199,7 @@
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
 
         <TextView
+            android:id="@+id/TextPostAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
