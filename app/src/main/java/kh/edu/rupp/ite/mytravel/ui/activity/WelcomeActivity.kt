@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import kh.edu.rupp.ite.mytravel.R
+import kh.edu.rupp.ite.mytravel.view.activity.MainActivity
 
 class WelcomeActivity : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class WelcomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome2)
+        setContentView(R.layout.activity_welcome)
 
         getStartedButton = findViewById(R.id.getStartedButton)
 
