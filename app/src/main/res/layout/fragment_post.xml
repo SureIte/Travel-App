@@ -207,179 +207,141 @@
             app:layout_constraintEnd_toEndOf="@id/cardView"
             app:layout_constraintTop_toTopOf="@id/txtAllCourses" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardViewLogo"
-            android:layout_width="192dp"
-            android:layout_height="98dp"
-            android:layout_marginTop="24dp"
-            app:layout_constraintStart_toStartOf="@id/txtAllCourses"
-            app:layout_constraintTop_toBottomOf="@id/txtAllCourses">
-
-            <ImageView
-                android:id="@+id/FullPost5"
-                android:layout_width="match_parent"
-                android:layout_height="110dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/photo18" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView20"
-            android:layout_width="192dp"
-            android:layout_height="98dp"
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollSeeAll"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
             android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="@+id/cardViewLogo"
-            app:layout_constraintStart_toStartOf="@+id/cardViewLogo"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewLogo">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtAllCourses"
+            tools:ignore="SpeakableTextPresentCheck">
 
-            <ImageView
-                android:id="@+id/FullPost6"
-                android:layout_width="match_parent"
-                android:layout_height="110dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/photo19" />
-        </androidx.cardview.widget.CardView>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
 
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView11"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView21"
-            android:layout_width="192dp"
-            android:layout_height="98dp"
+                    <ImageView
+                        android:id="@+id/FullPost11"
+                        android:layout_width="412dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.51"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.227"
+                        app:srcCompat="@drawable/photo3" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView12"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="@id/cardView11"
+                    app:layout_constraintStart_toEndOf="@id/cardView11"
+                    app:layout_constraintTop_toTopOf="@id/cardView11">
+
+                    <ImageView
+                        android:id="@+id/FullPost12"
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.51"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.227"
+                        app:srcCompat="@drawable/photo15" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView13"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="@id/cardView12"
+                    app:layout_constraintStart_toEndOf="@id/cardView12"
+                    app:layout_constraintTop_toTopOf="@id/cardView12">
+
+                    <ImageView
+                        android:id="@+id/FullPost13"
+                        android:layout_width="255dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.51"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.227"
+                        app:srcCompat="@drawable/photo17" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView14"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:layout_constraintBottom_toBottomOf="@id/cardView13"
+                    app:layout_constraintStart_toEndOf="@id/cardView13"
+                    app:layout_constraintTop_toTopOf="@id/cardView13">
+
+                    <ImageView
+                        android:id="@+id/FullPost14"
+                        android:layout_width="242dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.51"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.227"
+                        app:srcCompat="@drawable/photo16" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="@+id/cardView20"
-            app:layout_constraintStart_toStartOf="@+id/cardView20"
-            app:layout_constraintTop_toBottomOf="@+id/cardView20">
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollSeeAll">
 
             <ImageView
-                android:id="@+id/FullPost7"
-                android:layout_width="match_parent"
-                android:layout_height="98dp"
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.545"
                 app:srcCompat="@drawable/photo30" />
-        </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView22"
-            android:layout_width="192dp"
-            android:layout_height="98dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toEndOf="@+id/cardView21"
-            app:layout_constraintStart_toStartOf="@+id/cardView21"
-            app:layout_constraintTop_toBottomOf="@+id/cardView21">
 
-            <ImageView
-                android:id="@+id/FullPost8"
-                android:layout_width="match_parent"
-                android:layout_height="130dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/photo21" />
-        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat "
-            app:layout_constraintStart_toEndOf="@+id/cardViewLogo"
-            app:layout_constraintTop_toTopOf="@+id/cardViewLogo" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat "
-            app:layout_constraintStart_toEndOf="@+id/cardViewLogo"
-            app:layout_constraintTop_toTopOf="@+id/cardViewLogo" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView4"
-            app:layout_constraintStart_toStartOf="@+id/textView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat"
-            app:layout_constraintStart_toEndOf="@+id/cardView20"
-            app:layout_constraintTop_toTopOf="@+id/cardView20" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView7"
-            app:layout_constraintStart_toStartOf="@+id/textView7"
-            app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat"
-            app:layout_constraintStart_toEndOf="@+id/cardView21"
-            app:layout_constraintTop_toTopOf="@+id/cardView21" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView9"
-            app:layout_constraintStart_toStartOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat"
-            app:layout_constraintStart_toEndOf="@+id/cardView22"
-            app:layout_constraintTop_toTopOf="@+id/cardView22" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView13"
-            app:layout_constraintStart_toStartOf="@+id/textView13"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

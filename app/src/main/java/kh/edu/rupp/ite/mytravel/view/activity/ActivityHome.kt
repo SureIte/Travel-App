@@ -21,7 +21,7 @@ class ActivityHome : AppCompatActivity() {
         textView.text = "Welcome to the Home Activity!"
 
         // Setting an OnClickListener for a button
-        val button = findViewById<Button>(R.id.editTextTextPersonName2)
+        val button = findViewById<Button>(R.id.editTextTextPersonName)
         button.setOnClickListener {
 
             // action when the button is clicked button home

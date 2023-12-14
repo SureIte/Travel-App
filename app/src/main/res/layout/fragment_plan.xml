@@ -53,10 +53,20 @@
                 <FrameLayout
                     android:layout_height="86dp"
                     android:layout_width="0dp"
-                    android:background="@color/bg_search"
+                    android:background="#87CEEB"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"  />
+                    app:layout_constraintStart_toStartOf="parent"  >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:text="      Angkor Wat is a temple complex in Cambodia, located on a site measuring 162.6 hectares. The Guinness World Records considers it as the largest religious structure in the world." />
+                </FrameLayout>
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -220,6 +230,7 @@
             android:layout_width="192dp"
             android:layout_height="98dp"
             android:layout_marginTop="24dp"
+            app:cardCornerRadius="6dp"
             app:layout_constraintStart_toStartOf="@id/txtAllCourses"
             app:layout_constraintTop_toBottomOf="@id/txtAllCourses">
 
@@ -239,6 +250,7 @@
             android:layout_width="192dp"
             android:layout_height="98dp"
             android:layout_marginTop="16dp"
+            app:cardCornerRadius="6dp"
             app:layout_constraintEnd_toEndOf="@+id/cardViewLogo"
             app:layout_constraintStart_toStartOf="@+id/cardViewLogo"
             app:layout_constraintTop_toBottomOf="@+id/cardViewLogo">
@@ -260,6 +272,7 @@
             android:layout_width="192dp"
             android:layout_height="98dp"
             android:layout_marginTop="16dp"
+            app:cardCornerRadius="6dp"
             app:layout_constraintEnd_toEndOf="@+id/cardView20"
             app:layout_constraintStart_toStartOf="@+id/cardView20"
             app:layout_constraintTop_toBottomOf="@+id/cardView20">
@@ -280,6 +293,7 @@
             android:layout_width="192dp"
             android:layout_height="98dp"
             android:layout_marginTop="16dp"
+            app:cardCornerRadius="6dp"
             app:layout_constraintEnd_toEndOf="@+id/cardView21"
             app:layout_constraintStart_toStartOf="@+id/cardView21"
             app:layout_constraintTop_toBottomOf="@+id/cardView21">
@@ -296,22 +310,12 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat "
-            app:layout_constraintStart_toEndOf="@+id/cardViewLogo"
-            app:layout_constraintTop_toTopOf="@+id/cardViewLogo" />
-
-        <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat "
+            android:layout_marginTop="16dp"
+            android:text="Temple of Preah Vihear"
             app:layout_constraintStart_toEndOf="@+id/cardViewLogo"
             app:layout_constraintTop_toTopOf="@+id/cardViewLogo" />
 
@@ -319,20 +323,20 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView4"
-            app:layout_constraintStart_toStartOf="@+id/textView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            android:text="Preah Vihear, Cambodia"
+            app:layout_constraintStart_toEndOf="@+id/cardViewLogo"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="Angkor Wat"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Koh Ker Temple"
             app:layout_constraintStart_toEndOf="@+id/cardView20"
             app:layout_constraintTop_toTopOf="@+id/cardView20" />
 
@@ -340,11 +344,12 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="Siem Reap, Cambodia"
             app:layout_constraintEnd_toEndOf="@+id/textView7"
-            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/cardView20"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <TextView
@@ -361,11 +366,10 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView9"
-            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/cardView21"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <TextView
@@ -374,7 +378,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:text="Angkor Wat"
+            android:text="Koh Kong Krov"
             app:layout_constraintStart_toEndOf="@+id/cardView22"
             app:layout_constraintTop_toTopOf="@+id/cardView22" />
 
@@ -382,11 +386,10 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="Siem Reap, Cambodia"
-            app:layout_constraintEnd_toEndOf="@+id/textView13"
-            app:layout_constraintStart_toStartOf="@+id/textView13"
+            android:text="Koh Kong, Cambodia"
+            app:layout_constraintStart_toEndOf="@+id/cardView22"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 
