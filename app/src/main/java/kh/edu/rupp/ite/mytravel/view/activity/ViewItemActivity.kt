@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kh.edu.rupp.ite.mytravel.R
 
-class ViewPostActivity : AppCompatActivity() {
+class ViewItemActivity : AppCompatActivity() {
 
     private lateinit var postTitleTextView: TextView
     private lateinit var postContentTextView: TextView
