@@ -15,41 +15,23 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Assuming you have a button for login
-        loginButton().setOnClickListener {
-            // Perform your login logic here
-
-            // If login is successful, navigate to WelcomeActivity
-            if (isLoginSuccessful()) {
-                val intent = Intent(this, WelcomeActivity::class.java)
-                startActivity(intent)
-                finish() // Optional: Close LoginActivity to prevent going back on pressing back button
-            }
-        }
         binding.loginButton.setOnClickListener {
             loginButton()
         }
 
+        binding.textViewForgot.setOnClickListener { textviewForgot() }
     }
-
-
     private fun loginButton() {
-        var intent = Intent(this, WelcomeActivity::class.java)
+        var intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+   }
+
+    private fun textviewForgot(){
+        var intent = Intent(this, ForgetPasswordActivity::class.java)
         startActivity(intent)
     }
 
-    // Replace this with your actual login logic
-    private fun isLoginSuccessful(): Boolean {
-        // Perform authentication logic here
-        // Return true if login is successful, false otherwise
-        return true
-    }
 }
-
-private fun Any.setOnClickListener(function: () -> Unit) {
-
-}
-
 
 
 

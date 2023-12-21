@@ -6,35 +6,36 @@
 
     <ImageView
         android:id="@+id/imageView33"
-        android:layout_width="704dp"
-        android:layout_height="889dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/photo13" />
+        app:layout_constraintVertical_bias="0.624"
+        app:srcCompat="@drawable/photo1" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/ButtonCreateAccount"
         android:layout_width="190dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="128dp"
         android:backgroundTint="@color/yellow"
         android:text="@string/Create_Account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="123dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="0dp"
         android:layout_height="61dp"
+        android:layout_marginBottom="36dp"
         android:backgroundTint="@color/yellow"
         android:text="@string/Login"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3" />
+        app:layout_constraintBottom_toTopOf="@+id/ButtonCreateAccount"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonCreateAccount"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/ButtonCreateAccount" />
 </androidx.constraintlayout.widget.ConstraintLayout>
