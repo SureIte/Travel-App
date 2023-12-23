@@ -1,6 +1,5 @@
 package kh.edu.rupp.ite.mytravel.view.activity
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +8,7 @@ import kh.edu.rupp.ite.mytravel.databinding.ActivityWelcomeBinding
 class WelcomeActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityWelcomeBinding
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,8 +19,10 @@ class WelcomeActivity : AppCompatActivity() {
             getStartButton()
         }
     }
+
+    //Call Id activity to use
     private fun getStartButton(){
-        var intent = Intent(this, AddAccountActivity::class.java)
+        var intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
 }

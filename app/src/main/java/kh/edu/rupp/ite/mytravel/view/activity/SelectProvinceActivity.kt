@@ -3,27 +3,25 @@ package kh.edu.rupp.ite.mytravel.view.activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kh.edu.rupp.ite.mytravel.databinding.ActivityHomeBinding
+import kh.edu.rupp.ite.mytravel.databinding.ActivityProvinceBinding
 
-class ActivityHome : AppCompatActivity() {
+class SelectProvinceActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityProvinceBinding
 
-    private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = ActivityProvinceBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.imageViewhomepost1.setOnClickListener {
-            imageViewhomepost1()
+        binding.textViewSelectPro.setOnClickListener{
+            textViewSelectPro()
         }
-
     }
 
-    private fun imageViewhomepost1() {
+    private fun textViewSelectPro(){
         var intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
-
 }

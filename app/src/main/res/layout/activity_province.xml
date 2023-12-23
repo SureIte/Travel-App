@@ -19,7 +19,7 @@
             android:background="@color/yellow">
 
             <ImageView
-                android:id="@+id/imageView18"
+                android:id="@+id/textViewSelectPro"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="16dp"
@@ -29,7 +29,7 @@
                 app:srcCompat="@drawable/baseline_format_list_bulleted_24" />
 
             <TextView
-                android:id="@+id/textView46"
+                android:id="@+id/textViewSelect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -37,9 +37,9 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView18"
-                app:layout_constraintStart_toEndOf="@+id/imageView18"
-                app:layout_constraintTop_toTopOf="@+id/imageView18" />
+                app:layout_constraintBottom_toBottomOf="@+id/textViewSelectPro"
+                app:layout_constraintStart_toEndOf="@+id/textViewSelectPro"
+                app:layout_constraintTop_toTopOf="@+id/textViewSelectPro" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -164,105 +164,4 @@
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/textView66"
         app:layout_constraintTop_toBottomOf="@+id/textView66" />
-    <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:backgroundTint="@color/yellow"
-            android:background="@color/F0F0F0">
-
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="48dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_home_24" />
-
-            <TextView
-                android:id="@+id/textView29"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="@string/Home"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView21"
-                app:layout_constraintStart_toStartOf="@+id/imageView21"
-                app:layout_constraintTop_toBottomOf="@+id/imageView21" />
-
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="48dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_other_houses_24" />
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="@string/Other"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView22"
-                app:layout_constraintStart_toStartOf="@+id/imageView22"
-                app:layout_constraintTop_toBottomOf="@+id/imageView22" />
-
-            <ImageView
-                android:id="@+id/imageView23"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="62dp"
-                app:layout_constraintStart_toEndOf="@+id/imageView21"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_post_add_24" />
-
-            <TextView
-                android:id="@+id/textView32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="@string/Post"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView23"
-                app:layout_constraintStart_toStartOf="@+id/imageView23"
-                app:layout_constraintTop_toBottomOf="@+id/imageView23" />
-
-            <ImageView
-                android:id="@+id/selectProvincePost"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="57dp"
-                android:layout_marginEnd="57dp"
-                app:layout_constraintEnd_toStartOf="@+id/imageView22"
-                app:layout_constraintStart_toEndOf="@+id/imageView23"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_format_list_bulleted_24" />
-
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="@string/Province"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/selectProvincePost"
-                app:layout_constraintStart_toStartOf="@+id/selectProvincePost"
-                app:layout_constraintTop_toBottomOf="@+id/selectProvincePost" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="414dp"
-        android:layout_height="798dp"
+        android:layout_width="409dp"
+        android:layout_height="657dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView24"
             android:layout_width="407dp"
-            android:layout_height="200dp"
+            android:layout_height="170dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,8 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Information"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -87,7 +86,7 @@
                     android:id="@+id/imageView21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintStart_toStartOf="@+id/textView30"
                     app:layout_constraintTop_toBottomOf="@+id/textView30"
                     app:srcCompat="@drawable/image_edit_24" />
@@ -106,7 +105,7 @@
                     android:id="@+id/imageView23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView21"
                     app:layout_constraintStart_toStartOf="@+id/imageView21"
                     app:layout_constraintTop_toBottomOf="@+id/imageView21"
@@ -126,7 +125,7 @@
                     android:id="@+id/imageView26"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView23"
                     app:layout_constraintStart_toStartOf="@+id/imageView23"
                     app:layout_constraintTop_toBottomOf="@+id/imageView23"
@@ -146,7 +145,7 @@
                     android:id="@+id/imageView27"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/imageView26"
                     app:layout_constraintStart_toStartOf="@+id/imageView26"
@@ -157,7 +156,7 @@
                     android:id="@+id/textView34"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="10dp"
                     android:text="Password"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView27"
                     app:layout_constraintStart_toEndOf="@+id/imageView27"
@@ -169,7 +168,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView26"
             android:layout_width="407dp"
-            android:layout_height="170dp"
+            android:layout_height="150dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/cardView24"
@@ -185,8 +184,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Preference"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -253,11 +251,11 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="407dp"
-            android:layout_height="170dp"
+            android:layout_height="150dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/cardView26"
-            app:layout_constraintTop_toBottomOf="@+id/cardView26">
+            app:layout_constraintTop_toBottomOf="@+id/cardView26" >
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -269,8 +267,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Account"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 

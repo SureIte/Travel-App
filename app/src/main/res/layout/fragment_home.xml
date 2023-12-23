@@ -14,15 +14,15 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="30dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/bg_search_view"
+            android:hint="Search"
             android:inputType="text"
             android:paddingStart="16dp"
-            android:hint="Search"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewMenu"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewMenu"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewMenu" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView5"
@@ -120,7 +120,7 @@
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_marginTop="30dp"
-            app:layout_constraintEnd_toEndOf="@+id/editTextText"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewMenu"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/editTextText"
             app:layout_constraintTop_toBottomOf="@+id/editTextText"
@@ -339,7 +339,6 @@
             android:layout_height="1088dp"
             android:layout_marginStart="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView2"
             app:layout_constraintStart_toEndOf="@+id/cardView5"
             app:layout_constraintTop_toTopOf="@+id/cardView5"
             app:layout_constraintVertical_bias="0.0">
@@ -439,12 +438,22 @@
                     android:id="@+id/imageView13"
                     android:layout_width="match_parent"
                     android:layout_height="103dp"
-                    app:srcCompat="@drawable/photo29"/>
+                    app:srcCompat="@drawable/photo29" />
 
             </androidx.cardview.widget.CardView>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageViewMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_format_list_bulleted_24" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
