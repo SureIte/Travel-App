@@ -20,6 +20,9 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.textViewForgot.setOnClickListener { textviewForgot() }
+
+        binding.textviewSignUp.setOnClickListener { textviewSignUp() }
+
     }
     private fun loginButton() {
         var intent = Intent(this, MainActivity::class.java)
@@ -28,6 +31,11 @@ class LoginActivity : AppCompatActivity() {
 
     private fun textviewForgot(){
         var intent = Intent(this, ForgetPasswordActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun textviewSignUp(){
+        var intent = Intent(this, CreateAccountActivity::class.java)
         startActivity(intent)
     }
 

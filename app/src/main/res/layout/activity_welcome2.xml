@@ -4,56 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/photo27">
+    android:background="@drawable/photo34">
 
     <TextView
         android:id="@+id/textView63"
-        android:layout_width="0dp"
-        android:layout_height="186dp"
+        android:layout_width="378dp"
+        android:layout_height="96dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="16dp"
-        android:text="Welcome to Travel App"
-        android:textColor="@color/yellow"
-        android:textSize="60sp"
+        android:text="Discover best place to vacation"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView68"
-        android:layout_width="353dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="50dp"
-        android:text="Engage your audience with language that's Simple and easy to understand."
+        android:layout_width="374dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="24dp"
+        android:text="Engage your audience with language that's Simple and easy to understand"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="@+id/textView63"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView63"
         app:layout_constraintTop_toBottomOf="@+id/textView63" />
 
     <Button
-        android:id="@+id/buttonSkip1"
+        android:id="@+id/buttonSkip2"
         android:layout_width="115dp"
         android:layout_height="46dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="144dp"
         android:text="Skip"
         app:layout_constraintStart_toStartOf="@+id/textView68"
         app:layout_constraintTop_toBottomOf="@+id/textView68"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/buttonNext1"
+        android:id="@+id/buttonNext2"
         android:layout_width="115dp"
         android:layout_height="46dp"
         android:text="Next"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonSkip1"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSkip2"
         app:layout_constraintEnd_toEndOf="@+id/textView68"
-        app:layout_constraintHorizontal_bias="0.984"
-        app:layout_constraintStart_toEndOf="@+id/buttonSkip1"
-        app:layout_constraintTop_toTopOf="@+id/buttonSkip1"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="@+id/buttonSkip2"
         tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
