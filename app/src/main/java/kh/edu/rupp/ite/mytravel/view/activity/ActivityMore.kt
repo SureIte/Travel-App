@@ -15,7 +15,7 @@ class ActivityMore : AppCompatActivity() {
         binding = ActivityMoreBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-    }
 
+    }
     
 }

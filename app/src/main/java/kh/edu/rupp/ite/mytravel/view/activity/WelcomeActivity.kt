@@ -22,7 +22,7 @@ class WelcomeActivity : AppCompatActivity() {
 
     //Call Id activity to use
     private fun getStartButton(){
-        var intent = Intent(this, LoginActivity::class.java)
+        var intent = Intent(this, WelcomeActivity1::class.java)
         startActivity(intent)
     }
 }

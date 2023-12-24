@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/photo27">
+    android:background="@drawable/photo55">
 
     <TextView
         android:id="@+id/textView63"
@@ -14,7 +14,7 @@
         android:layout_marginTop="152dp"
         android:layout_marginEnd="16dp"
         android:text="Welcome to Travel App"
-        android:textColor="@color/yellow"
+        android:textColor="@color/white"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

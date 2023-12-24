@@ -25,12 +25,12 @@ class WelcomeActivity2 : AppCompatActivity() {
     }
 
     private fun buttonNext2(){
-        var intent = Intent(this, WelcomeActivity::class.java)
+        var intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
 
     private fun buttonSkip2(){
-        var intent = Intent(this, LoginActivity::class.java)
+        var intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

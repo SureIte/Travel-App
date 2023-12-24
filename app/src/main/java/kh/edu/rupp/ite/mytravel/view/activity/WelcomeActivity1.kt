@@ -28,7 +28,7 @@ class WelcomeActivity1 : AppCompatActivity() {
     }
 
     private fun buttonSkip1(){
-        var intent = Intent(this, LoginActivity::class.java)
+        var intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }
