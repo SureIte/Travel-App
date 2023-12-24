@@ -17,7 +17,9 @@ class AddAccountActivity : AppCompatActivity() {
         binding.buttonLogin.setOnClickListener {
             buttonLogin()
         }
-        binding.ButtonCreateAccount.setOnClickListener { buttonCreateAccount() }
+        binding.ButtonCreateAccount.setOnClickListener {
+            buttonCreateAccount() }
+
     }
 
     private fun buttonLogin() {

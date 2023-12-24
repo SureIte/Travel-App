@@ -40,7 +40,7 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="0dp"
-                    android:layout_height="230dp"
+                    android:layout_height="433dp"
                     app:cardCornerRadius="16dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -48,25 +48,9 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.545"
-                    app:srcCompat="@drawable/photo9" />
+                    app:srcCompat="@drawable/photo43" />
 
-                <FrameLayout
-                    android:layout_height="86dp"
-                    android:layout_width="0dp"
-                    android:background="#87CEEB"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"  >
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="6dp"
-                        android:textSize="16dp"
-                        android:textColor="@color/black"
-                        android:text="      Angkor Wat is a temple complex in Cambodia, located on a site measuring 162.6 hectares. The Guinness World Records considers it as the largest religious structure in the world." />
-                </FrameLayout>
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -84,7 +68,7 @@
             app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textViewPlanSeeAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
@@ -216,7 +200,7 @@
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
 
         <TextView
-            android:id="@+id/txtAllCoursesSeeAll"
+            android:id="@+id/textPlanSeeAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
@@ -271,15 +255,17 @@
             android:layout_width="192dp"
             android:layout_height="98dp"
             android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             app:cardCornerRadius="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView22"
             app:layout_constraintEnd_toEndOf="@+id/cardView20"
             app:layout_constraintStart_toStartOf="@+id/cardView20"
             app:layout_constraintTop_toBottomOf="@+id/cardView20">
 
             <ImageView
                 android:id="@+id/FullPost7"
-                android:layout_width="match_parent"
-                android:layout_height="98dp"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

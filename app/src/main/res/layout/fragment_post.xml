@@ -51,6 +51,24 @@
                     app:srcCompat="@drawable/photo9" />
 
 
+                <FrameLayout
+                    android:layout_height="86dp"
+                    android:layout_width="0dp"
+                    android:background="#87CEEB"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"  >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:text="      Angkor Wat is a temple complex in Cambodia, located on a site measuring 162.6 hectares. The Guinness World Records considers it as the largest religious structure in the world."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </FrameLayout>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
@@ -100,7 +118,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost1"
-                        android:layout_width="412dp"
+                        android:layout_width="343dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -108,7 +126,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo3" />
+                        app:srcCompat="@drawable/photo5" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -124,7 +142,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost2"
-                        android:layout_width="214dp"
+                        android:layout_width="345dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -132,7 +150,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo15" />
+                        app:srcCompat="@drawable/photo6" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -148,7 +166,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost3"
-                        android:layout_width="255dp"
+                        android:layout_width="344dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -156,7 +174,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo17" />
+                        app:srcCompat="@drawable/photo7" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -172,7 +190,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost"
-                        android:layout_width="242dp"
+                        android:layout_width="285dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -180,7 +198,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo16" />
+                        app:srcCompat="@drawable/photo27" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -197,7 +215,7 @@
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
 
         <TextView
-            android:id="@+id/TextPostAll"
+            android:id="@+id/textPostAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
@@ -230,7 +248,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost11"
-                        android:layout_width="412dp"
+                        android:layout_width="285dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -238,7 +256,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo3" />
+                        app:srcCompat="@drawable/photo44" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -254,7 +272,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost12"
-                        android:layout_width="214dp"
+                        android:layout_width="284dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -262,7 +280,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo15" />
+                        app:srcCompat="@drawable/photo46" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -278,7 +296,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost13"
-                        android:layout_width="255dp"
+                        android:layout_width="268dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -286,7 +304,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo17" />
+                        app:srcCompat="@drawable/photo47" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -302,7 +320,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost14"
-                        android:layout_width="242dp"
+                        android:layout_width="214dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -310,7 +328,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo16" />
+                        app:srcCompat="@drawable/photo49" />
 
                 </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -334,7 +352,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.545"
-                app:srcCompat="@drawable/photo30" />
+                app:srcCompat="@drawable/photo41" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -362,7 +380,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost15"
-                        android:layout_width="412dp"
+                        android:layout_width="230dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -370,7 +388,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo3" />
+                        app:srcCompat="@drawable/photo28" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -386,7 +404,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost16"
-                        android:layout_width="214dp"
+                        android:layout_width="284dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -394,7 +412,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo15" />
+                        app:srcCompat="@drawable/photo37" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -410,7 +428,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost17"
-                        android:layout_width="255dp"
+                        android:layout_width="297dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -418,7 +436,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo17" />
+                        app:srcCompat="@drawable/photo39" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -434,7 +452,7 @@
 
                     <ImageView
                         android:id="@+id/FullPost18"
-                        android:layout_width="242dp"
+                        android:layout_width="284dp"
                         android:layout_height="match_parent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -442,7 +460,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.227"
-                        app:srcCompat="@drawable/photo16" />
+                        app:srcCompat="@drawable/photo40" />
 
                 </androidx.cardview.widget.CardView>
 

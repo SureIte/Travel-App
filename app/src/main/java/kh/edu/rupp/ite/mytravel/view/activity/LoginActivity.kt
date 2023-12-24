@@ -19,9 +19,12 @@ class LoginActivity : AppCompatActivity() {
             loginButton()
         }
 
-        binding.textViewForgot.setOnClickListener { textviewForgot() }
+        binding.textViewForgot.setOnClickListener {
+            textviewForgot() }
 
-        binding.textviewSignUp.setOnClickListener { textviewSignUp() }
+        binding.textviewSignUp.setOnClickListener {
+            textviewSignUp() }
+
 
     }
     private fun loginButton() {

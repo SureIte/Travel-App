@@ -61,17 +61,15 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="16dp"
             android:text="Popular Course"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
             app:layout_constraintStart_toStartOf="@+id/cardView"
             app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textViewPost1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/textView11"
             app:layout_constraintEnd_toEndOf="@+id/cardView"
             app:layout_constraintTop_toTopOf="@+id/textView11" />
@@ -199,7 +197,7 @@
             app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
 
         <TextView
-            android:id="@+id/TextViewPost"
+            android:id="@+id/textViewPost2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="See All"
