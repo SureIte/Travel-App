@@ -24,9 +24,10 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="406dp"
+                android:layout_height="402dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/intro" />
+                android:src="@drawable/photo_getstart"
+     />
 
             <TextView
                 android:id="@+id/textView"
